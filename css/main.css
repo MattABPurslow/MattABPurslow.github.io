@@ -1,4 +1,5 @@
 body {
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     margin: 60px auto;
     width: 70%;
 }
@@ -41,5 +42,6 @@ ul.posts {
 }
 
 ul.posts li {
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
 }
