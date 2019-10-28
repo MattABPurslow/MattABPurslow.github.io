@@ -1,3 +1,0 @@
-[submodule "jupyter-blog/plugins/ipynb"]
-	path = jupyter-blog/plugins/ipynb
-	url = git://github.com/danielfrg/pelican-ipynb.git
