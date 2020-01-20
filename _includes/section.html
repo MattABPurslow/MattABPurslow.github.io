@@ -26,7 +26,8 @@
 {%- else -%}
 	{%- capture _heading -%}
 		<header>
-			<h2 background-color: "#555"; background-opacity: 0.5>
+            <style>h2 {background-color: #555; opacity: 0.5}</style>
+			<h2>
         {%- if include.auto-header == null or include.auto-header == 'use-title' -%}
           {{- _title -}}
         {%- else -%}
