@@ -97,6 +97,8 @@
 	}
 
 	h2 {
+        background-color: #fff;
+        background-opacity: 0.5;
 		font-size: 2em;
 		letter-spacing: -1px;
 	}
@@ -281,8 +283,6 @@
 		&.centered {
 			display: block;
 			margin: 0 0 2em 0;
-            color: #555;
-            opacity: 0.5;
 
 			img {
 				margin: 0 auto;
