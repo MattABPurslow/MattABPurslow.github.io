@@ -26,13 +26,14 @@
 {%- else -%}
 	{%- capture _heading -%}
 		<header>
-			<h2>
+			<h2><style>
+                body {background-color: #1c87c9; opacity: 0.5}
         {%- if include.auto-header == null or include.auto-header == 'use-title' -%}
           {{- _title -}}
         {%- else -%}
           {{- include.auto-header -}}
         {%- endif -%}
-      </h2>
+            </style></h2>
       {%- if include.subtitle -%}<p>{{- include.subtitle -}}</p>{%- endif -%}
 		</header>
 	{%- endcapture -%}
